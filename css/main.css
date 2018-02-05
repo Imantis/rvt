@@ -2,14 +2,10 @@
   margin: 0;
   padding: 0; }
 
-html {
-  height: auto; }
-
 body {
   width: 100%;
   height: 100%;
   color: #333;
-  background: #f7f7f7;
   font-size: 1em;
   font-family: Helvetica, Verdana, sans-serif;
   background-attachment: fixed;
@@ -25,23 +21,8 @@ body {
   height: 1px; }
 
 @media (min-width: 900px) {
-  #menu {
-    align-items: center;
-    justify-content: center;
-    height: inherit;
-    float: left;
-    width: 80%;
-    margin-left: 10%; }
-
   .parallax {
-    height: 28vh; }
-
-  .category {
-    width: 27.33333%; }
-
-  #categories {
-    width: 80%;
-    margin-left: 10%; } }
+    height: 28vh; } }
 @media (max-width: 899px) {
   #menu {
     align-items: center;
@@ -57,13 +38,6 @@ body {
   .parallax {
     height: 20vh; }
 
-  .category {
-    width: 44%; }
-
-  #categories {
-    width: 90%;
-    margin-left: 5%; }
-
   .forvideo {
     width: 96%;
     height: 250px; }
@@ -73,26 +47,6 @@ body {
 
   .responsive_blok {
     width: 96%; } }
-.menu_bok {
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  float: left;
-  margin-left: 2%;
-  height: auto;
-  width: 20%;
-  margin-right: 2%; }
-
-.menu_center {
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  float: left;
-  height: auto;
-  width: 52%; }
-
 .wave {
   height: 50px;
   margin-bottom: 20px;
@@ -142,18 +96,19 @@ body {
   text-shadow: 1px 1px 2px black, 0 0 0.5em #e4e4e4; }
 
 #categories {
+  width: 80%;
+  margin-left: 10%;
   float: left;
   background-image: url(../image/stripes-26447_960_720.png); }
+  #categories a {
+    padding: 3%; }
 
-.category {
-  margin: 3%;
-  float: left; }
-  .category img {
-    width: 100%;
-    transform: scale(1);
-    transition: .3s ease-in-out; }
-    .category img:hover {
-      transform: scale(1.1); }
+img {
+  width: 100%;
+  transform: scale(1);
+  transition: .3s ease-in-out; }
+  img:hover {
+    transform: scale(1.1); }
 
 P {
   padding-top: 5px;
@@ -161,25 +116,10 @@ P {
   text-indent: 10px; }
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url(../image/footer.png);
-  height: 30vh;
   width: 100%; }
   footer a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    float: left; }
-    footer a img {
-      height: 25vh;
-      width: auto;
-      transform: scale(1);
-      transition: .3s ease-in-out; }
-      footer a img:hover {
-        transform: scale(1.1); }
+    padding: 3%; }
 
 .forvideo {
   width: 46%;
@@ -189,24 +129,13 @@ footer {
   display: block;
   border-radius: 5px; }
 
-li {
-  list-style-type: none; }
-
-ul {
-  margin-left: 0;
-  padding-left: 0; }
-
 .galery_example {
   width: 42%;
   height: auto;
   margin: 4%;
   float: left;
   display: block;
-  border-radius: 10px;
-  transform: scale(1);
-  transition: .2s ease-in-out; }
-  .galery_example:hover {
-    transform: scale(1.15); }
+  border-radius: 10px; }
 
 .gallery_text {
   font-size: 2em;
@@ -256,12 +185,8 @@ h5 {
   .input_blok label {
     width: 50%; }
 
-#menu img {
-  width: 100%;
-  height: auto;
-  transform: scale(1);
-  transition: .3s ease-in-out; }
-  #menu img:hover {
-    transform: scale(1.1); }
+#menu {
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
