@@ -38,15 +38,16 @@ body {
   .parallax {
     height: 20vh; }
 
-  .forvideo {
-    width: 96%;
-    height: 250px; }
-
   .galery_example {
     width: 92%; }
 
   .responsive_blok {
-    width: 96%; } }
+    width: 96%; }
+
+  .about iframe {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px; } }
 .wave {
   height: 50px;
   margin-bottom: 20px;
@@ -124,14 +125,6 @@ footer {
   footer a {
     padding: 3%; }
 
-.forvideo {
-  width: 46%;
-  height: 350px;
-  float: left;
-  margin: 2%;
-  display: block;
-  border-radius: 5px; }
-
 .galery_example {
   width: 42%;
   height: auto;
@@ -187,6 +180,11 @@ h5 {
   margin-bottom: 10px; }
   .input_blok label {
     width: 50%; }
+
+.about iframe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 300px; }
 
 #menu {
   margin-top: 20px;
