@@ -130,13 +130,19 @@ body {
 		padding: 3%;
 	}
 }
-
 img {
 	width: 100%;
 	transform: scale(1);
 	transition: .3s ease-in-out;
 	&:hover {
 		transform: scale(1.1);
+	}
+}
+.introduce{
+	img {
+		&:hover {
+			transform: none;
+		}
 	}
 }
 P {
