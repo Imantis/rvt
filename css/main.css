@@ -1,3 +1,8 @@
+.introduce, .parallax, form .input_blok {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -47,16 +52,13 @@ body {
     height: 200px; } }
 .wave {
   height: 50px;
-  margin-bottom: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
   background-image: url(../image/wave.png);
   background-size: contain; }
 
 .introduce {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-left: 3%;
   padding-right: 3%;
   width: 80%;
@@ -85,9 +87,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 10vw;
   font-family: fantasy;
   color: #e4e4e4;
@@ -128,9 +127,6 @@ footer {
 form {
   font-size: 2em; }
   form .input_blok {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 0.6em;
     margin-top: 10px;
     margin-bottom: 10px; }
